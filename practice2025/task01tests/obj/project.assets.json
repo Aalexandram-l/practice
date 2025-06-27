@@ -1712,6 +1712,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "task01/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/task01.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/task01.dll": {}
+        }
       }
     }
   },
@@ -5507,12 +5517,18 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "task01/1.0.0": {
+      "type": "project",
+      "path": "../task01/task01.csproj",
+      "msbuildProject": "../task01/task01.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "coverlet.collector >= 6.0.0",
+      "task01 >= 1.0.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
@@ -5541,7 +5557,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/ome23/practice/practice2025/task01/task01.csproj": {
+              "projectPath": "/home/ome23/practice/practice2025/task01/task01.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
