@@ -5,19 +5,26 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./practice2025  
-
+    
     steps:
       - uses: actions/checkout@v4
+      
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
-      - name: Restore
+      
+      - name: Create solution directory
+        run: mkdir -p practice2025
+      
+      - name: Restore dependencies
         run: dotnet restore
+        working-directory: ./practice2025
+        
       - name: Build
         run: dotnet build --no-restore
+        working-directory: ./practice2025
+        
       - name: Test
-        run: dotnet test --no-build
+        run: dotnet test --no-build --verbosity normal
+        working-directory: ./practice2025
