@@ -1,0 +1,12 @@
+/home/ome23/practice/practice2025/task05/bin/Debug/net8.0/task05.deps.json
+/home/ome23/practice/practice2025/task05/bin/Debug/net8.0/task05.dll
+/home/ome23/practice/practice2025/task05/bin/Debug/net8.0/task05.pdb
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/task05.GeneratedMSBuildEditorConfig.editorconfig
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/task05.AssemblyInfoInputs.cache
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/task05.AssemblyInfo.cs
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/task05.csproj.CoreCompileInputs.cache
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/task05.sourcelink.json
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/task05.dll
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/refint/task05.dll
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/task05.pdb
+/home/ome23/practice/practice2025/task05/obj/Debug/net8.0/ref/task05.dll
