@@ -1,0 +1,12 @@
+/home/ome23/practice/practice2025/CommandLib/bin/Debug/net8.0/CommandLib.deps.json
+/home/ome23/practice/practice2025/CommandLib/bin/Debug/net8.0/CommandLib.dll
+/home/ome23/practice/practice2025/CommandLib/bin/Debug/net8.0/CommandLib.pdb
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/CommandLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/CommandLib.AssemblyInfoInputs.cache
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/CommandLib.AssemblyInfo.cs
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/CommandLib.csproj.CoreCompileInputs.cache
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/CommandLib.sourcelink.json
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/CommandLib.dll
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/refint/CommandLib.dll
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/CommandLib.pdb
+/home/ome23/practice/practice2025/CommandLib/obj/Debug/net8.0/ref/CommandLib.dll
