@@ -1,0 +1,16 @@
+/home/ome23/practice/practice2025/FileSystemCommands/bin/Debug/net8.0/FileSystemCommands.deps.json
+/home/ome23/practice/practice2025/FileSystemCommands/bin/Debug/net8.0/FileSystemCommands.dll
+/home/ome23/practice/practice2025/FileSystemCommands/bin/Debug/net8.0/FileSystemCommands.pdb
+/home/ome23/practice/practice2025/FileSystemCommands/bin/Debug/net8.0/CommandLib.dll
+/home/ome23/practice/practice2025/FileSystemCommands/bin/Debug/net8.0/CommandLib.pdb
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.csproj.AssemblyReference.cache
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.GeneratedMSBuildEditorConfig.editorconfig
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.AssemblyInfoInputs.cache
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.AssemblyInfo.cs
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.csproj.CoreCompileInputs.cache
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.sourcelink.json
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.csproj.CopyComplete
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.dll
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/refint/FileSystemCommands.dll
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/FileSystemCommands.pdb
+/home/ome23/practice/practice2025/FileSystemCommands/obj/Debug/net8.0/ref/FileSystemCommands.dll
