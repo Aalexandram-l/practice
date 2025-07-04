@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PluginLibrary2/1.0.0": {
+        "dependencies": {
+          "PluginAttributes": "1.0.0",
+          "PluginLibrary1": "1.0.0"
+        },
+        "runtime": {
+          "PluginLibrary2.dll": {}
+        }
+      },
+      "PluginAttributes/1.0.0": {
+        "runtime": {
+          "PluginAttributes.dll": {}
+        }
+      },
+      "PluginLibrary1/1.0.0": {
+        "dependencies": {
+          "PluginAttributes": "1.0.0"
+        },
+        "runtime": {
+          "PluginLibrary1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PluginLibrary2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PluginAttributes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PluginLibrary1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
