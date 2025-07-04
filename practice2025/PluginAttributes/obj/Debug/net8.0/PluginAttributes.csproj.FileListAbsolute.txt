@@ -1,0 +1,12 @@
+/home/ome23/practice/practice2025/PluginAttributes/bin/Debug/net8.0/PluginAttributes.deps.json
+/home/ome23/practice/practice2025/PluginAttributes/bin/Debug/net8.0/PluginAttributes.dll
+/home/ome23/practice/practice2025/PluginAttributes/bin/Debug/net8.0/PluginAttributes.pdb
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/PluginAttributes.GeneratedMSBuildEditorConfig.editorconfig
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/PluginAttributes.AssemblyInfoInputs.cache
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/PluginAttributes.AssemblyInfo.cs
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/PluginAttributes.csproj.CoreCompileInputs.cache
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/PluginAttributes.sourcelink.json
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/PluginAttributes.dll
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/refint/PluginAttributes.dll
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/PluginAttributes.pdb
+/home/ome23/practice/practice2025/PluginAttributes/obj/Debug/net8.0/ref/PluginAttributes.dll
