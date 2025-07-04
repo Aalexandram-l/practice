@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "AEeEyy6BeTmPd8bnaVJUgs/Ra7nyZSwjhgRvu7exW+eLRvuH5ud7GqgA6HZ9K4kCvScAPiCG6EYBzMk3lJI2XQ==",
+  "success": true,
+  "projectFilePath": "/home/ome23/practice/practice2025/task11/task11.csproj",
+  "expectedPackageFiles": [
+    "/home/ome23/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "/home/ome23/.nuget/packages/microsoft.codeanalysis.common/4.7.0/microsoft.codeanalysis.common.4.7.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/microsoft.codeanalysis.csharp/4.7.0/microsoft.codeanalysis.csharp.4.7.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/microsoft.codeanalysis.csharp.scripting/4.7.0/microsoft.codeanalysis.csharp.scripting.4.7.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/microsoft.codeanalysis.scripting.common/4.7.0/microsoft.codeanalysis.scripting.common.4.7.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

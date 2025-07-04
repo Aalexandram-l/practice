@@ -1,0 +1,13 @@
+/home/ome23/practice/practice2025/task11/bin/Debug/net8.0/task11.deps.json
+/home/ome23/practice/practice2025/task11/bin/Debug/net8.0/task11.dll
+/home/ome23/practice/practice2025/task11/bin/Debug/net8.0/task11.pdb
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.csproj.AssemblyReference.cache
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.GeneratedMSBuildEditorConfig.editorconfig
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.AssemblyInfoInputs.cache
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.AssemblyInfo.cs
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.csproj.CoreCompileInputs.cache
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.sourcelink.json
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.dll
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/refint/task11.dll
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/task11.pdb
+/home/ome23/practice/practice2025/task11/obj/Debug/net8.0/ref/task11.dll
