@@ -9,7 +9,7 @@ namespace task09
         {
             if (args.Length != 1)
             {
-                Console.WriteLine("Использование: Program <путь_к_библиотеке>");
+                Console.WriteLine("Использование: Program");
                 return;
             }
 
