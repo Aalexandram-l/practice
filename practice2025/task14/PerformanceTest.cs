@@ -11,19 +11,20 @@ public class PerformanceTest
         double a = -100;
         double b = 100;
         Func<double, double> function = Math.Sin;
-        double[] steps = { 1e-1, 1e-2, 1e-3, 1e-4, 1e-5, 1e-6 };
+        double[] steps = {1e-1, 1e-2, 1e-3, 1e-4, 1e-5, 1e-6 };
         int[] threadCounts = { 1, 2, 4, 8, 16, 32 };
 
-        double optimalStep = 0;
+        double optimalStep = 0;              
         foreach (var step in steps)
         {
-            double result = DefiniteIntegral.Solve(a, b, function, step, 1);
-            if (Math.Abs(result - 0) < 1e-4) 
+            double result = DefiniteIntegral.SolveSingleThread(a, b, function, step);
+            if (Math.Abs(result-0.0) < 1e-4)
             {
                 optimalStep = step;
                 break;
             }
         }
+
 
         if (optimalStep == 0)
         {
@@ -32,6 +33,15 @@ public class PerformanceTest
         }
 
         Dictionary<int, double> timeByThreads = new();
+        double singleTime = 0;
+        for (int i = 0; i < 5; i++)
+        {
+            var sw = Stopwatch.StartNew();
+            DefiniteIntegral.SolveSingleThread(a, b, function, optimalStep);
+            sw.Stop();
+            singleTime += sw.Elapsed.TotalMilliseconds;
+        }
+        singleTime /= 5;
         foreach (var threads in threadCounts)
         {
             double total = 0;
@@ -51,7 +61,7 @@ public class PerformanceTest
         {
             writer.WriteLine($"Оптимальный шаг: {optimalStep:E1}");
             writer.WriteLine($"Оптимальное количество потоков: {best.Key}");
-            writer.WriteLine($"Однопоточное время: {timeByThreads[1]:F2} мс");
+            writer.WriteLine($"Однопоточное время: {singleTime:F2} мс");
             writer.WriteLine($"Многопоточное время: {best.Value:F2} мс");
             writer.WriteLine($"Улучшение: {(timeByThreads[1] - best.Value) / timeByThreads[1] * 100:F1}%");
         }

@@ -59,4 +59,16 @@ public class DefiniteIntegral
 
         return totalSum;
     }
+    public static double SolveSingleThread(double a, double b, Func<double, double> f, double step)
+    {
+        if (b <= a) return 0;
+        if (step <= 0) throw new ArgumentException("Шаг должен быть положительным");
+        double sum = 0;
+        for (double x = a; x < b; x += step)
+        {
+            double nextX = Math.Min(x + step, b);
+            sum += (f(x) + f(nextX)) * (nextX - x) / 2;
+        }
+        return sum;
+    }
 }
