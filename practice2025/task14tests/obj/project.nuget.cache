@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/E0sMBH1o5ESwkLBfl58/cMT/S9DzYUYQTMESFgPWytxzxWjZ497Ijaa0QhmBsaCf7QQr43B05Mrc3ev5nRE3w==",
+  "dgSpecHash": "dCImez7ja3N6ZAb4J3+CXVrFRYHNh6M4LpPH8uNCCYgWxgYyGyfjJnJoDRyiPz38Y16LwDzOIVNXnxU00C6qnA==",
   "success": true,
   "projectFilePath": "/home/ome23/practice/practice2025/task14tests/task14tests.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,10 @@
     "/home/ome23/.nuget/packages/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/home/ome23/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/home/ome23/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "/home/ome23/.nuget/packages/scottplot/5.0.15/scottplot.5.0.15.nupkg.sha512",
+    "/home/ome23/.nuget/packages/skiasharp/2.88.7/skiasharp.2.88.7.nupkg.sha512",
+    "/home/ome23/.nuget/packages/skiasharp.nativeassets.macos/2.88.7/skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",
+    "/home/ome23/.nuget/packages/skiasharp.nativeassets.win32/2.88.7/skiasharp.nativeassets.win32.2.88.7.nupkg.sha512",
     "/home/ome23/.nuget/packages/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg.sha512",
     "/home/ome23/.nuget/packages/system.buffers/4.3.0/system.buffers.4.3.0.nupkg.sha512",
     "/home/ome23/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
@@ -94,5 +98,16 @@
     "/home/ome23/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "/home/ome23/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "task14tests depends on ScottPlot (>= 5.0.0) but ScottPlot 5.0.0 was not found. An approximate best match of ScottPlot 5.0.15 was resolved.",
+      "libraryId": "ScottPlot",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
