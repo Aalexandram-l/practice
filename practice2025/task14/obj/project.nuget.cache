@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gq6GGjO9PDhQfnMNpKPEc1t4WdPLdxX5d+Q3O1xWCTPvB5cK4erPB8h2vFnsN0ckVTSjgcC0hFgdMSc4VUqZRw==",
+  "success": true,
+  "projectFilePath": "/home/ome23/practice/practice2025/task14/task14.csproj",
+  "expectedPackageFiles": [
+    "/home/ome23/.nuget/packages/scottplot/5.0.15/scottplot.5.0.15.nupkg.sha512",
+    "/home/ome23/.nuget/packages/skiasharp/2.88.7/skiasharp.2.88.7.nupkg.sha512",
+    "/home/ome23/.nuget/packages/skiasharp.nativeassets.macos/2.88.7/skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",
+    "/home/ome23/.nuget/packages/skiasharp.nativeassets.win32/2.88.7/skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "task14 depends on ScottPlot (>= 5.0.0) but ScottPlot 5.0.0 was not found. An approximate best match of ScottPlot 5.0.15 was resolved.",
+      "libraryId": "ScottPlot",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
